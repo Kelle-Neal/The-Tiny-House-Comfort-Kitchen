@@ -1,11 +1,18 @@
 import React from 'react';
-import NavBar from './components/NavBar.js';
+import NavHeader from './components/sections/navHeader.js';
+import NavMenu from './components/sections/navMenu.js';
+import LandingPage from './components/sections/landing.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
     <>
       <div className='container' id='app'>
-        <NavBar />
+        <NavHeader />
+        <NavMenu />
+        <LandingPage />
       </div>
     </>  
   );
