@@ -19,10 +19,10 @@ function Dinner() {
   return (
     <>
       <div className="row" id="dinnerMenu"></div>
-      <h1 className="Header">Dinner Menu</h1>
+      <h1 className="Header text-center">Dinner Menu</h1>
       {items.map((item) => (
         <div key={item.id} id="info">
-          <div className="card width: 18rem;">
+          <div className="card text-center width: 18rem;">
             <h4 className='card-title'>{item.title}</h4>
             <h5 className="card-subtitle mb-2 text-muted">{item.price}</h5>
             <p className='card-text'>{item.description}</p>

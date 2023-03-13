@@ -1,6 +1,11 @@
+app {
+  background-color: #282c34;
+  color: #cfb66b;
+
+}
 
 body {
-  padding-top: 60px;
+  padding-top: 200px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,59 +15,127 @@ body {
   background-color: #282c34;
 }
 
+header {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+container {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+container-fluid {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+info {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+
+
+card-text {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+card-subtitle {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+card-title {
+  background-color: #282c34;
+  color: #cfb66b;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background-color: #282c34;
+
 }
 
 #mainNavigation a {
   font-family: 'Cabin', sans-serif;
-  font-size:14px;
-  text-transform:uppercase;
-  letter-spacing:2px;
-  text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4)
 }
 
 .dropdown-menu {
-  background:#03727d
+  background-color: #282c34;
 }
+
 a.dropdown-toggle {
-  color:#dfdfdf !important
-}
-a.dropdown-item:hover {
-  color:#03727d !important
-}
-.nav-item a{
-  color:#dfdfdf;
-}
-.nav-item a:hover {
-  color:#fff
-}
-.nav-item{
-  min-width:12vw;
-}
-#mainNavigation {
-  top:0;
-  left:0;
-  width:100%;
-  z-index:123;
-  padding-bottom:120px;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-background-color: #282c34;
+  color: #cfb66b !important;
+  background-color: #282c34;
+
 
 }
-#navbarNavDropdown.collapsing .navbar-nav,
-#navbarNavDropdown.show .navbar-nav{
-  background:#037582;
-  padding:12px;
+
+a.dropdown-item:hover {
+  color: #cfb66b !important;
+  background-color: #282c34;
+
 }
+
+.nav-item a {
+  color: #cfb66b;
+  background-color: #282c34;
+
+}
+
+.nav-item a:hover {
+  color: #cfb66b;
+  background-color: #282c34;
+
+}
+
+.nav-item {
+  min-width: 12vw;
+}
+
+#mainNavigation {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 123;
+  padding-bottom: 120px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+  background-color: #282c34;
+
+}
+
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav {
+  background: #037582;
+  /* padding: 12px; */
+}
+
 nav-header {
   position: "fixed-top";
+  padding-bottom: 120px;
+  background-color: #282c34;
+
+
 }
+
 nav-secondary {
-  padding-top: 60px;
+  padding-top: 100px;
+  background-color: #282c34;
+
 }

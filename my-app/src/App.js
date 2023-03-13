@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import NavHeader from './components/sections/navigation/navHeader.js';
 import NavMenu from './components/sections/navigation/navMenu.js';
 import LandingPage from './components/sections/landing.js';
 import AboutUs from './components/sections/about.js';
@@ -11,25 +10,26 @@ import Appetizers from './components/sections/menu/appetizers.js';
 import Lunch from './components/sections/menu/lunch.js';
 import Dinner from './components/sections/menu/dinner.js';
 import Drinks from './components/sections/menu/drinks.js';
-// import Footer from './components/sections/navigation/footer.js';
+import Footer from './components/sections/navigation/footer.js';
 
 
 
 function App() {
   return (
     <>
-      <div className='container' id='app'>
-        <NavHeader />
-        <NavMenu />
+      <div className='container-fluid fixed-top pt-5' id="navBars">
+          <NavMenu />
+      </div>
+      <div className='container-fluid'>  
         <LandingPage />
         <AboutUs />
         <Events />
+        <Footer />
         <Breakfast />
         <Appetizers />
         <Lunch />
         <Dinner />
         <Drinks />
-        {/* <Footer /> */}
       </div>
     </>  
   );

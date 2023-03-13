@@ -16,13 +16,13 @@ function NavHeader() {
             src={ logo }
             height="40"
             className="d-inline-block align-middle"
-            href="#home"
+            href="#landing"
           />
         </Navbar.Brand>
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#footer">Hours & Location</Nav.Link>
+            <Nav.Link href="#LocNav">Hours & Location</Nav.Link>
             <Nav.Link href="#aboutUs">About Us</Nav.Link>
             <Nav.Link href="#events">Events</Nav.Link>
           </Nav>
