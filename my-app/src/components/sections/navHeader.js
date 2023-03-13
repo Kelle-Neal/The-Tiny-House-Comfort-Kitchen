@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import logo from '../../img/houseWhite.png';
+import logo from '../../img/logoNav.png';
 
 
 function NavHeader() {
@@ -12,12 +12,11 @@ function NavHeader() {
 
         <Navbar.Brand >
           <img
-            alt=""
+            alt="logo"
             src={logo}
-            width="50"
             height="50"
             className="d-inline-block align-middle"
-          />{' '}The Tiny House Comfort Kitchen
+          />
         </Navbar.Brand>
 
         <Navbar.Collapse id="basic-navbar-nav">

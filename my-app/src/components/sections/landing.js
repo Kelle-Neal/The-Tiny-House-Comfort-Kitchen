@@ -1,27 +1,21 @@
 import React from 'react'
-import logo from '../../img/logoWhite.png';
-import Parent from './parent'
-// import useWindowDimensions from '../helper';
+import LandingPic from '../../img/landingImg.png';
 
 function LandingPage() {
-  // const { width: windowWidth } = useWindowDimensions()
-
-	return (
+  return (
     <>
-      <Parent>
-        <div>
-          <img src={logo} alt="logo"
-          style={{
-            position: 'center',
-            height: 800,
-            width: 800,
-            padding: 50,
-          }}></img>
-        </div>
-      </Parent>
-    </>  
-	);
+      {/* <div className='container-fluid'> */}
+        <img
+          alt="logo over a table of food"
+          src={ LandingPic }
+          // width="auto"
+          className= 'img-responsive'
+          // position= 'center'
+          width= '100%'
+        />  
+      {/* </div> */}
+    </>
+  );    
 }
-
 
 export default LandingPage;
