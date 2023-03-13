@@ -1,21 +1,21 @@
 import React from 'react'
-import AboutUsPic from '../../img/aboutUsImg.png';
+import AboutUsPic from '../../img/aboutUs.png';
 
-function LandingPage() {
+function AboutUs() {
   return (
     <>
-      {/* <div className='container-fluid'> */}
+      <div id="aboutUs">
         <img
           alt="logo over a table of food"
-          src={ LandingPic }
+          src={ AboutUsPic }
           // width="auto"
           className= 'img-responsive'
           // position= 'center'
           width= '100%'
         />  
-      {/* </div> */}
+      </div>
     </>
   );    
 }
 
-export default LandingPage;
+export default AboutUs;

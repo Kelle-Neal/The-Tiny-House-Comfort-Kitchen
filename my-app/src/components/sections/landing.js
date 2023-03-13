@@ -1,10 +1,10 @@
 import React from 'react'
-import LandingPic from '../../img/landingImg.png';
+import LandingPic from '../../img/landingPage.png';
 
 function LandingPage() {
   return (
     <>
-      {/* <div className='container-fluid'> */}
+      <div id='home'>
         <img
           alt="logo over a table of food"
           src={ LandingPic }
@@ -13,7 +13,7 @@ function LandingPage() {
           // position= 'center'
           width= '100%'
         />  
-      {/* </div> */}
+      </div>
     </>
   );    
 }
