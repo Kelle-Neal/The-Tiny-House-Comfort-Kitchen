@@ -15,13 +15,13 @@ function NavMenu() {
           <Navbar.Toggle onClick={() => setIsExpand(prev => !prev)} aria-controls="basic-navbar-nav" />
 
           <Navbar.Brand >
+            <a href='#landing'>
             <img
               alt="logo"
               src={logo}
               height="40"
-              className="d-inline-block align-middle"
-              href="#landing"
-            />
+              className="d-inline-block align-middle"/>
+            </a>  
           </Navbar.Brand>
 
           <Navbar.Collapse id="basic-navbar-nav">
